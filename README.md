@@ -1,2 +1,3 @@
 # Location-Service
-A location microservice
+
+A location microservice - [Currently Incomplete]
