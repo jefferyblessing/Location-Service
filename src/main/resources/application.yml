@@ -1,0 +1,16 @@
+---
+server:
+  port: 6001
+spring:
+  application:
+    name: wb3-location-service
+  data:
+    mongodb:
+      database: location-system-db
+      host: 10.0.1.101
+      port: 4001
+logging:
+  level:
+    ROOT: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
